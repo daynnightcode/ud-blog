@@ -1,0 +1,22 @@
+Header with nav
+
+
+Side bar
+Search bar
+Categories list
+Top Post
+Instagram feed
+
+Main
+blog post
+Picture
+Categories
+Date
+Title
+Brief detail
+
+
+Footer
+Logo
+About us
+Contact
