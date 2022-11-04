@@ -2,3 +2,127 @@
     The main should only
     hold the layout of the site.
 */
+
+/*********************************
+1025px — 1200px: Desktops, large screens
+*********************************/
+
+body
+{
+    font-size: 18px;
+}
+
+
+.container
+{
+    display: grid;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0 50px 0;
+}
+
+.header-nav ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav ul li
+{
+    padding: 0 10px;
+}
+
+
+
+
+
+/*********************************
+320px — 480px: Mobile devices
+*********************************/
+
+@media(max-width: 480px)
+{
+    .container
+{
+    display: grid;
+    margin: 0 auto;
+}
+
+.header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px auto 40px;
+
+}
+
+.header-nav ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-nav ul li
+{
+    padding: 0 4px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+/*********************************
+481px — 768px: iPads, Tablets
+*********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************
+769px — 1024px: Small screens, laptops
+*********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
