@@ -10,6 +10,8 @@
 body
 {
     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f3f4;
 }
 
 
@@ -27,15 +29,28 @@ body
     margin: 25px 0 50px 0;
 }
 
+ .header h1
+ {
+    font-size: 32px;
+    vertical-align: top;
+ }
+
 .header-nav ul
 {
     display: flex;
     justify-content: space-between;
+    padding-top: 5px;
 }
 
 .header-nav ul li
 {
     padding: 0 10px;
+}
+
+.header-nav ul li a
+{
+    text-decoration: none;
+    color: #00B4D8;
 }
 
 
